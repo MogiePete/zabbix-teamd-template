@@ -100,7 +100,7 @@
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Template App Linux Teaming:team.check[{#TEAM_IF}].regexp(^yes$)}&lt;&gt;1</expression>
+                            <expression>{Template App Linux Teaming:team.check[{#TEAM_IF}].regexp(^activated$)}&lt;&gt;1</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
                             <name>Status for {#TEAM_IF} is: {ITEM.VALUE}</name>
